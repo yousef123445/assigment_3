@@ -1,7 +1,3 @@
-'''
-name : youssef mohamed mohamed ezzat 
-id : 20200688
-'''
 import random
 import numpy as np
 def initialize_pop(size,variables,maxx,minn):
