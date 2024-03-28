@@ -1,3 +1,5 @@
+# name : youssef mohamed mohamed ezzat 
+# id : 20200688 
 import random
 import numpy as np
 def initialize_pop(size,variables,maxx,minn):
@@ -18,7 +20,7 @@ def elitism(chromosomes, fitness_scores):
 def rank_fitness(population):
     fitness=[]
     for i in range(len(population)):
-        fitness.append(8-(population[i][0]+0.0317)*2+population[i][1]*2)
+        fitness.append(8-(population[i][0]+0.0317)**2+population[i][1]**2)
     rank= np.array(fitness).argsort().argsort()+1
     sp=1+random.random()
     rank_fitness=[]
